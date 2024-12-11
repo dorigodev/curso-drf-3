@@ -1,0 +1,1284 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-12-09T19:23:53.411Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Paula",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-12-09T19:26:05.412Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Paula",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-12-09T19:27:13.638Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Paula",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"User permissions\", \"Last login\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-12-09T19:28:51.395Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Vini",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-12-09T19:29:07.190Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Vini",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"User permissions\", \"Last login\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-12-09T19:29:12.076Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Vini",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-12-09T19:29:29.067Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Julia",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-12-09T19:29:46.997Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Julia",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"User permissions\", \"Last login\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-12-09T19:29:54.119Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Julia",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add curso",
+            "content_type": 7,
+            "codename": "add_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change curso",
+            "content_type": 7,
+            "codename": "change_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete curso",
+            "content_type": 7,
+            "codename": "delete_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view curso",
+            "content_type": 7,
+            "codename": "view_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add estudante",
+            "content_type": 8,
+            "codename": "add_estudante"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change estudante",
+            "content_type": 8,
+            "codename": "change_estudante"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete estudante",
+            "content_type": 8,
+            "codename": "delete_estudante"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view estudante",
+            "content_type": 8,
+            "codename": "view_estudante"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add matricula",
+            "content_type": 9,
+            "codename": "add_matricula"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change matricula",
+            "content_type": 9,
+            "codename": "change_matricula"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete matricula",
+            "content_type": 9,
+            "codename": "delete_matricula"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view matricula",
+            "content_type": 9,
+            "codename": "view_matricula"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$wm9xC4nDdlYLYFxOMhTcpg$3M7b5xD9YsdLQ1pk9hLy2vgRQv3fHXRJIREUlboApOM=",
+            "last_login": "2024-12-09T19:23:16.432Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-12-09T18:34:02.723Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$tVcNZ9KWUQYciQYyhkGSDx$j4KII5FTtHGCb6NsjqUifVOKoOTJcrKnVFfLpu0pZ/A=",
+            "last_login": "2024-12-09T19:28:32.091Z",
+            "is_superuser": false,
+            "username": "Paula",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-12-09T19:23:53Z",
+            "groups": [],
+            "user_permissions": [
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$UKOIhMt4fR0qqoK6PS3tSk$cJ+UhQS5H/8i544tmz4Idp+xG8uUSWVOZ4YoTvfB6Go=",
+            "last_login": "2024-12-09T19:29:06Z",
+            "is_superuser": false,
+            "username": "Vini",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-12-09T19:28:51Z",
+            "groups": [],
+            "user_permissions": [
+                25,
+                26,
+                27,
+                28
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$vkxscTOhYvbuXbebflfgEA$q1X9dITC75cOZ5UGlcUhldaZsauHXOcCxujNeqk799w=",
+            "last_login": "2024-12-09T19:29:41Z",
+            "is_superuser": false,
+            "username": "Julia",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-12-09T19:29:28Z",
+            "groups": [],
+            "user_permissions": [
+                28,
+                32,
+                36
+            ]
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "escola",
+            "model": "curso"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "escola",
+            "model": "estudante"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "escola",
+            "model": "matricula"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pte2laere3nwumgkz4qc14k50808r8il",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCmgIBL9z0DmWFAqoYmpV0Z765NutDtf-_9l4i4rTVuPS9xYnERIE6_G2F65LYDvmO7zTLNbV0mkrsiD9rlOHN-Xg_376Bir986aUXOeaBsOJCHs02GsQwpqwLgggbWhViDKQNb9qyTKpZMRq8hBCPeH_FrOC0:1tKjLg:QgRXhQbkSUc2k4HYDR0Wq3lencsXRU2kDeVYHvII52A",
+            "expire_date": "2024-12-23T19:23:16.541Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "qhlpq401s4gaf50q6x5uznea1tavnu87",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pABigwu3XsGMgOjVA1NSrsy3l2bdKHb_977L5VoXWpau8xpLOqkrDr8bkz5IW0D5U7tNuk8tWUeWW-K3mnXl6nI87y7fweVev3WzqCNhowjNDG7ABYJ0AcULh6BSpQsJhvgq_PeC4gIDDwcEZg8BvX-AMHtN2c:1tKjQm:PDZKKoa-VUEFHuBJQwx2n3AXdOMcztBn1E60HbluByc",
+            "expire_date": "2024-12-23T19:28:32.192Z"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 1,
+        "fields": {
+            "nome": "AlÝcia Pereira",
+            "email": "alÝciapereira@uol.com.br",
+            "cpf": "89001648053",
+            "data_nascimento": "2003-10-10",
+            "celular": "29 96654-9200"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 2,
+        "fields": {
+            "nome": "Emanuel Rezende",
+            "email": "emanuelrezende@uol.com.br",
+            "cpf": "24084169145",
+            "data_nascimento": "1998-08-29",
+            "celular": "45 95323-6545"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 3,
+        "fields": {
+            "nome": "Bruna Azevedo",
+            "email": "brunaazevedo@bol.com.br",
+            "cpf": "72223246230",
+            "data_nascimento": "2002-04-11",
+            "celular": "25 95457-9798"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 4,
+        "fields": {
+            "nome": "Sr. Felipe Moreira",
+            "email": "sr.felipemoreira@gmail.com",
+            "cpf": "71929208006",
+            "data_nascimento": "2001-02-02",
+            "celular": "48 96592-7459"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 5,
+        "fields": {
+            "nome": "Otßvio Moraes",
+            "email": "otßviomoraes@uol.com.br",
+            "cpf": "23382654911",
+            "data_nascimento": "2001-02-07",
+            "celular": "81 96447-5592"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 6,
+        "fields": {
+            "nome": "Renan Ferreira",
+            "email": "renanferreira@uol.com.br",
+            "cpf": "70593343514",
+            "data_nascimento": "1996-11-28",
+            "celular": "47 94251-5216"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 7,
+        "fields": {
+            "nome": "Fernanda Moreira",
+            "email": "fernandamoreira@hotmail.com",
+            "cpf": "58779015247",
+            "data_nascimento": "2001-09-17",
+            "celular": "15 99957-8915"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 8,
+        "fields": {
+            "nome": "Leonardo Nascimento",
+            "email": "leonardonascimento@gmail.com",
+            "cpf": "16700072948",
+            "data_nascimento": "2003-11-09",
+            "celular": "11 94364-6292"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 9,
+        "fields": {
+            "nome": "Erick Cunha",
+            "email": "erickcunha@hotmail.com",
+            "cpf": "09801410604",
+            "data_nascimento": "1999-02-02",
+            "celular": "45 94674-8060"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 10,
+        "fields": {
+            "nome": "Isabelly Duarte",
+            "email": "isabellyduarte@yahoo.com.br",
+            "cpf": "54047327417",
+            "data_nascimento": "2005-04-12",
+            "celular": "71 97679-5881"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 11,
+        "fields": {
+            "nome": "LavÝnia Pinto",
+            "email": "lavÝniapinto@uol.com.br",
+            "cpf": "94574865288",
+            "data_nascimento": "1995-01-16",
+            "celular": "80 95776-8832"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 12,
+        "fields": {
+            "nome": "Maria Luiza Martins",
+            "email": "marialuizamartins@bol.com.br",
+            "cpf": "55885227535",
+            "data_nascimento": "1996-08-06",
+            "celular": "38 99889-7982"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 13,
+        "fields": {
+            "nome": "Juan Duarte",
+            "email": "juanduarte@gmail.com",
+            "cpf": "03936118760",
+            "data_nascimento": "1994-06-24",
+            "celular": "74 95670-8035"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 14,
+        "fields": {
+            "nome": "Fernanda Cardoso",
+            "email": "fernandacardoso@bol.com.br",
+            "cpf": "84800056373",
+            "data_nascimento": "1995-04-26",
+            "celular": "88 95215-6602"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 15,
+        "fields": {
+            "nome": "JoÒo Pedro Moura",
+            "email": "joÒopedromoura@bol.com.br",
+            "cpf": "45361941344",
+            "data_nascimento": "1996-06-25",
+            "celular": "17 96907-9957"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 16,
+        "fields": {
+            "nome": "Yago Castro",
+            "email": "yagocastro@uol.com.br",
+            "cpf": "31131073851",
+            "data_nascimento": "1996-10-07",
+            "celular": "60 94735-6806"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 17,
+        "fields": {
+            "nome": "JoÒo Felipe Pinto",
+            "email": "joÒofelipepinto@uol.com.br",
+            "cpf": "29394544690",
+            "data_nascimento": "2001-07-08",
+            "celular": "44 99179-8087"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 18,
+        "fields": {
+            "nome": "Rodrigo Freitas",
+            "email": "rodrigofreitas@hotmail.com",
+            "cpf": "59417724169",
+            "data_nascimento": "2004-06-09",
+            "celular": "23 95562-5419"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 19,
+        "fields": {
+            "nome": "Camila Costa",
+            "email": "camilacosta@yahoo.com.br",
+            "cpf": "11518313523",
+            "data_nascimento": "2001-09-09",
+            "celular": "81 94616-9202"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 20,
+        "fields": {
+            "nome": "Davi Luiz da Luz",
+            "email": "daviluizdaluz@hotmail.com",
+            "cpf": "00770103375",
+            "data_nascimento": "2002-02-08",
+            "celular": "58 95263-9470"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 21,
+        "fields": {
+            "nome": "Dr. Leandro das Neves",
+            "email": "dr.leandrodasneves@gmail.com",
+            "cpf": "89143369642",
+            "data_nascimento": "2003-03-17",
+            "celular": "71 96954-9114"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 22,
+        "fields": {
+            "nome": "Srta. Helena Lopes",
+            "email": "srta.helenalopes@hotmail.com",
+            "cpf": "73402041138",
+            "data_nascimento": "1995-04-19",
+            "celular": "38 99319-8983"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 23,
+        "fields": {
+            "nome": "Levi Nunes",
+            "email": "levinunes@bol.com.br",
+            "cpf": "35360141271",
+            "data_nascimento": "1996-08-18",
+            "celular": "86 97323-5598"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 24,
+        "fields": {
+            "nome": "Luna Duarte",
+            "email": "lunaduarte@ig.com.br",
+            "cpf": "46987304149",
+            "data_nascimento": "2002-11-16",
+            "celular": "59 97264-7711"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 25,
+        "fields": {
+            "nome": "Luiz Henrique Rocha",
+            "email": "luizhenriquerocha@bol.com.br",
+            "cpf": "29273677878",
+            "data_nascimento": "2002-06-11",
+            "celular": "14 94450-4692"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 26,
+        "fields": {
+            "nome": "Davi Luiz Rodrigues",
+            "email": "daviluizrodrigues@ig.com.br",
+            "cpf": "10998168157",
+            "data_nascimento": "2001-10-15",
+            "celular": "24 94556-9920"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 27,
+        "fields": {
+            "nome": "Beatriz Peixoto",
+            "email": "beatrizpeixoto@bol.com.br",
+            "cpf": "04794493258",
+            "data_nascimento": "2003-11-21",
+            "celular": "85 99371-9771"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 28,
+        "fields": {
+            "nome": "Dr. Luigi da Cunha",
+            "email": "dr.luigidacunha@bol.com.br",
+            "cpf": "31508654506",
+            "data_nascimento": "2001-06-12",
+            "celular": "20 96326-6239"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 29,
+        "fields": {
+            "nome": "Kaique Azevedo",
+            "email": "kaiqueazevedo@gmail.com",
+            "cpf": "92989660674",
+            "data_nascimento": "2001-05-26",
+            "celular": "11 94793-5533"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 30,
+        "fields": {
+            "nome": "Ana Clara Barros",
+            "email": "anaclarabarros@yahoo.com.br",
+            "cpf": "45487569142",
+            "data_nascimento": "1995-07-08",
+            "celular": "59 99453-5125"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 31,
+        "fields": {
+            "nome": "Calebe Ramos",
+            "email": "caleberamos@uol.com.br",
+            "cpf": "99225423152",
+            "data_nascimento": "1996-04-22",
+            "celular": "86 94562-4618"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 32,
+        "fields": {
+            "nome": "Larissa Santos",
+            "email": "larissasantos@uol.com.br",
+            "cpf": "44620329932",
+            "data_nascimento": "1999-10-11",
+            "celular": "26 97238-5596"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 33,
+        "fields": {
+            "nome": "Sra. Valentina Ramos",
+            "email": "sra.valentinaramos@uol.com.br",
+            "cpf": "49979573724",
+            "data_nascimento": "1999-07-11",
+            "celular": "68 97922-8336"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 34,
+        "fields": {
+            "nome": "Manuela Silveira",
+            "email": "manuelasilveira@hotmail.com",
+            "cpf": "64918062601",
+            "data_nascimento": "2006-07-09",
+            "celular": "65 96152-8397"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 35,
+        "fields": {
+            "nome": "Igor Azevedo",
+            "email": "igorazevedo@ig.com.br",
+            "cpf": "77127697370",
+            "data_nascimento": "1997-04-07",
+            "celular": "49 96587-5693"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 36,
+        "fields": {
+            "nome": "Maria Sophia Rocha",
+            "email": "mariasophiarocha@gmail.com",
+            "cpf": "74204575226",
+            "data_nascimento": "1995-12-02",
+            "celular": "23 98298-9676"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 37,
+        "fields": {
+            "nome": "Leandro Farias",
+            "email": "leandrofarias@ig.com.br",
+            "cpf": "78106922324",
+            "data_nascimento": "1998-11-10",
+            "celular": "31 96912-4630"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 38,
+        "fields": {
+            "nome": "Augusto Vieira",
+            "email": "augustovieira@gmail.com",
+            "cpf": "10715621777",
+            "data_nascimento": "1998-10-17",
+            "celular": "59 96296-9425"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 39,
+        "fields": {
+            "nome": "Raul Rocha",
+            "email": "raulrocha@hotmail.com",
+            "cpf": "52083253493",
+            "data_nascimento": "2000-01-30",
+            "celular": "58 96887-5303"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 40,
+        "fields": {
+            "nome": "Juliana da Mota",
+            "email": "julianadamota@yahoo.com.br",
+            "cpf": "33334385183",
+            "data_nascimento": "1997-01-16",
+            "celular": "84 95769-4811"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 41,
+        "fields": {
+            "nome": "Nicolas da Mota",
+            "email": "nicolasdamota@uol.com.br",
+            "cpf": "16202234903",
+            "data_nascimento": "1997-06-21",
+            "celular": "34 96119-5958"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 42,
+        "fields": {
+            "nome": "Rodrigo Lima",
+            "email": "rodrigolima@uol.com.br",
+            "cpf": "22068761408",
+            "data_nascimento": "2006-08-04",
+            "celular": "68 99483-7307"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 43,
+        "fields": {
+            "nome": "Dra. Rebeca Pereira",
+            "email": "dra.rebecapereira@uol.com.br",
+            "cpf": "15169814305",
+            "data_nascimento": "2005-03-27",
+            "celular": "69 94221-9383"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 44,
+        "fields": {
+            "nome": "Dra. CecÝlia Fogaþa",
+            "email": "dra.cecÝliafogaþa@bol.com.br",
+            "cpf": "75257223155",
+            "data_nascimento": "2000-02-19",
+            "celular": "84 95206-9265"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 45,
+        "fields": {
+            "nome": "Pedro Lucas Almeida",
+            "email": "pedrolucasalmeida@hotmail.com",
+            "cpf": "00346262801",
+            "data_nascimento": "2001-02-23",
+            "celular": "71 95764-6042"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 46,
+        "fields": {
+            "nome": "J·lia Nascimento",
+            "email": "j·lianascimento@ig.com.br",
+            "cpf": "88640030103",
+            "data_nascimento": "1997-05-03",
+            "celular": "75 97241-5809"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 47,
+        "fields": {
+            "nome": "Vitor Pereira",
+            "email": "vitorpereira@gmail.com",
+            "cpf": "59968118982",
+            "data_nascimento": "1994-11-17",
+            "celular": "18 99062-8991"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 48,
+        "fields": {
+            "nome": "Dr. JoÒo Guilherme Ramos",
+            "email": "dr.joÒoguilhermeramos@uol.com.br",
+            "cpf": "63047773025",
+            "data_nascimento": "2006-11-09",
+            "celular": "11 94051-9911"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 49,
+        "fields": {
+            "nome": "Pedro Lucas Gomes",
+            "email": "pedrolucasgomes@uol.com.br",
+            "cpf": "17093108806",
+            "data_nascimento": "2005-10-06",
+            "celular": "40 94635-9413"
+        }
+    },
+    {
+        "model": "escola.estudante",
+        "pk": 50,
+        "fields": {
+            "nome": "Luiz Fernando Sales",
+            "email": "luizfernandosales@bol.com.br",
+            "cpf": "39038273800",
+            "data_nascimento": "1998-06-04",
+            "celular": "53 94500-4700"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 1,
+        "fields": {
+            "codigo": "CPOO1",
+            "descricao": "Curso de Python OrientaþÒo Ó Objetos 01",
+            "nivel": "A"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 2,
+        "fields": {
+            "codigo": "CPOO2",
+            "descricao": "Curso de Python OrientaþÒo Ó Objetos 02",
+            "nivel": "A"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 3,
+        "fields": {
+            "codigo": "CPOO3",
+            "descricao": "Curso de Python OrientaþÒo Ó Objetos 03",
+            "nivel": "I"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 4,
+        "fields": {
+            "codigo": "CDJ01",
+            "descricao": "Curso de Django 01",
+            "nivel": "B"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 5,
+        "fields": {
+            "codigo": "CDJ02",
+            "descricao": "Curso de Django 02",
+            "nivel": "A"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 6,
+        "fields": {
+            "codigo": "CDJ03",
+            "descricao": "Curso de Django 03",
+            "nivel": "B"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 7,
+        "fields": {
+            "codigo": "CDJ04",
+            "descricao": "Curso de Django 04",
+            "nivel": "A"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 8,
+        "fields": {
+            "codigo": "CDJ05",
+            "descricao": "Curso de Django 05",
+            "nivel": "I"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 9,
+        "fields": {
+            "codigo": "CDJRF01",
+            "descricao": "Curso de Django REST Framework 01",
+            "nivel": "A"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 10,
+        "fields": {
+            "codigo": "CDJRF02",
+            "descricao": "Curso de Django REST Framework 02",
+            "nivel": "I"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 11,
+        "fields": {
+            "codigo": "CDJRF03",
+            "descricao": "Curso de Django REST Framework 03",
+            "nivel": "I"
+        }
+    },
+    {
+        "model": "escola.curso",
+        "pk": 12,
+        "fields": {
+            "codigo": "CDJRF04",
+            "descricao": "Curso de Django REST Framework 04",
+            "nivel": "A"
+        }
+    },
+    {
+        "model": "escola.matricula",
+        "pk": 1,
+        "fields": {
+            "estudante": 38,
+            "curso": 5,
+            "periodo": "V"
+        }
+    }
+]
